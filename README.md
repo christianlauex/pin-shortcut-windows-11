@@ -11,7 +11,7 @@ This is a quick guide using a work around to create and customise a shortcut tha
 ### 1. Open File Explorer
 ### 2. Create new shortcut
 
-1. Right click in empty space and select `New` followed by `Shortcut`.
+1. Right click empty space and select `New` followed by `Shortcut`.
 
 ![create](assets/create.png)
 
@@ -33,18 +33,32 @@ Example:
 
 ![path](assets/path.png)
 
-### 4. Finish create new shortcut
+### 4. Finish creating shortcut
 
 1. Click `Next`
-2. Name the shortcut
+2. Name the shortcut with the name you want to be displayed
 
 ![name](assets/name.png)
 
 3. Click `Finish`
 
-### 5. Customise shortcut icon (Optional)
+### 5. Pin shortcut
 
-1. Right click on the newly created shortcut and select `Properties`
+**A. Pin to Start Menu**
+
+1. Right click on the shortcut and select `Pin to Start`
+
+![pin_start](assets/pin_start.png)
+
+**B. Pin to Taskbar**
+
+1. Right click on the shortcut and select `Show more options` followed by `Pin to Taskbar`
+
+![pin_taskbar](assets/pin_taskbar.png)
+
+### 6. Customise shortcut icon (Optional)
+
+1. Right click on the shortcut and select `Properties`
 
 ![properties](assets/properties.png)
 
@@ -56,10 +70,15 @@ Example:
 
 ![icons](assets/icons.png)
 
-4. For more icon options, browse in:
+For more icon options, under `Look for icons in this file:`, type:
 
 Example:
 
     %SystemRoot%\System32\SHELL32.dll
 
+> [!NOTE]
+> You may need to tap the Enter key on your keyboard to reload the icon options.
+
 ![more_icons](assets/more_icons.png)
+
+4. Click `Ok` to save changes.
