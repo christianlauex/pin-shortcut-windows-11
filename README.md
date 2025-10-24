@@ -11,7 +11,7 @@ This is a quick guide using a work around to create and customise a shortcut tha
 ### 1. Open File Explorer
 ### 2. Create new shortcut
 
-1. Right click empty space and select `New` followed by `Shortcut`.
+1. Right click on empty space and select `New` followed by `Shortcut`.
 
 ![create](assets/create.png)
 
@@ -28,7 +28,7 @@ Example:
 
 | Item | Description |
 | --- | --- |
-| `explorer` | Links to File Explorer. This forces the system to treat the shortcut like it, which allows it to be pinned. |
+| `explorer` | Links to File Explorer. This makes the system to treat the shortcut like the application, allowing it to be pinned. |
 | `path/to/item` | The location of the item you want to access. |
 
 ![path](assets/path.png)
