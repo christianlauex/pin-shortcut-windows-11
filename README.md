@@ -28,7 +28,7 @@ Example:
 
 | Item | Description |
 | --- | --- |
-| `explorer` | Links to File Explorer. This makes the system to treat the shortcut like the application, allowing it to be pinned. |
+| `explorer` | Links to File Explorer. This makes the system treat the shortcut like that application, allowing it to be pinned. |
 | `path/to/item` | The location of the item you want to access. |
 
 ![path](assets/path.png)
